@@ -7,7 +7,7 @@ const ParkingIcon: React.FC<{ className?: string }> = ({ className }) => (
 export const Promo: React.FC = () => {
   return (
     <section className="px-2 space-y-3">
-        <div className="bg-dark-card rounded-2xl p-4 flex justify-between items-center">
+        <div className="bg-dark-card rounded-full p-4 flex justify-between items-center">
             <div className="flex items-center space-x-3">
                 <div className="bg-accent-yellow text-black rounded-full w-10 h-10 flex items-center justify-center font-bold text-xl">
                     <ParkingIcon />
